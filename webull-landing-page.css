@@ -70,25 +70,30 @@ body {
 .container {  
   margin: 0 50px;
 }
+
 /* styling the navbar */
 .navbar-container {
+  height: 100%;
   display: flex;
+  z-index: 20;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
 
-.navbar-container:scolled {
+/* .navbar-container:scolled {
   top: 0;
   position: sticky;
   top: 0;
   background-color: #EDF6FF;
   color: black;
-}
+} */
+
 
 .left-navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   gap: 20px;
@@ -269,8 +274,8 @@ a  {
 /* styling the middle container (h1, span, p, get started button and video)*/
 
 .middle-container {
-  display: block;
-  /* flex-direction: row; */
+  display: flex;
+  flex-direction: row;
   margin: 150px;
 }
 
@@ -342,19 +347,17 @@ p  {
 }
 
 .video-container {
-  /* display: flex; */
-  position:fixed;
-  bottom: 200px;
+  width: 800px;
+  height: 100%;
+  display: flex;
+  position: absolute;
   right: 0;
+  bottom: 100px;
   margin: 10px;  
+  /* object-fit: contain;
+  overflow-x: visible;
+  overflow-y: visible; */
 }
-
-/* video {
-  object-fit: contain;
-  overflow-clip-margin:inherit;
-  overflow-x: hidden;
-  overflow-y: hidden;
-} */
 
 .image-container {
   cursor: pointer;
