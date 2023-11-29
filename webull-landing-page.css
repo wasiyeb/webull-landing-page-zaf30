@@ -75,8 +75,8 @@ body {
 .navbar-container {
   height: 100%;
   display: flex;
-  z-index: 20;background-color: white;
-
+  z-index: 20;
+  background-color: white;
   position: sticky;
   top: 0;
   justify-content: space-between;
@@ -246,9 +246,9 @@ a  {
 
 .signup-button  {
   cursor: pointer;
-  color: #E5F3FF;
-  border: solid #E5F3FF 1px;
-  background-color: transparent;
+  color: #0D86FF;
+  border: solid #9DCCFC 1px;
+  background-color: #EDF7FF;
   border-radius: 10px;  
   width: 100px;
   height: 40px;
@@ -358,9 +358,6 @@ p  {
   right: 0;
   bottom: 100px;
   margin: 10px;  
-  /* object-fit: contain;
-  overflow-x: visible;
-  overflow-y: visible; */
 }
 
 .image-container {
